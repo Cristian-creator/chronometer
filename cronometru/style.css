@@ -1,0 +1,58 @@
+.numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 0px;
+}
+
+.buttons button {
+  background: transparent;
+}
+
+.buttons button:hover {
+  border: 2px solid red;
+}
+
+.numbers-label {
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.chronometer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8% auto;
+  border: 4px solid red;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.chronometer-container .title {
+  border-bottom: 1px solid red;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
